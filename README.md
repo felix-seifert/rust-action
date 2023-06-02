@@ -1,17 +1,16 @@
 # Rust Github Action
 
-:warning: Action is deprecated, please use [rust-action](https://github.com/Mirlahiji/rust-action).
-Thanks to [Mirlahiji](https://github.com/Mirlahiji) for taking over the project :heart:
-
 'Silverbullet' for a quickstart Rust CI based upon [Github Actions](https://developer.github.com/actions/)
+
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org) [![](https://img.shields.io/badge/Rust-1.70.0-orange)](https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html)
 
 *What's inside the "box":*
 
-* Rust 1.68.0
+* Rust 1.70.0
 * Rustfmt
 * Clippy
 * Cargo Release
-* cmake - Thanks @ [bwasty](https://github.com/bwasty)
+* Cmake
 
 # Usage
 
@@ -28,7 +27,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - uses: icepuma/rust-action@master
+      - uses: mirlahiji/rust-action@master
         with:
           args: cd integration-test && cargo fmt -- --check && cargo clippy -- -Dwarnings && cargo test
 ```
+
+---
+
+> Thanks to @ [icepuma](https://github.com/icepuma) for handing over the project and @ [bwasty](https://github.com/bwasty) for Cmake
