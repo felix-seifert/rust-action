@@ -1,6 +1,6 @@
-name: "Rust Action"
+name: "Rust Action Box"
 description: "'Silverbullet' for a quickstart Rust CI based upon Github Actions"
-author: "Stefan Ruzitschka"
+author: "Delaram Mirlahiji"
 branding:
   icon: "play-circle"
   color: "gray-dark"
