@@ -1,6 +1,6 @@
 FROM rust:1.70.0
 
-LABEL "com.github.actions.name"="Rust Action"
+LABEL "com.github.actions.name"="Rust Action Box"
 LABEL "com.github.actions.description"="'Silverbullet' for a quickstart Rust CI based upon Github Actions"
 LABEL "com.github.actions.icon"="play-circle"
 LABEL "com.github.actions.color"="gray-dark"
